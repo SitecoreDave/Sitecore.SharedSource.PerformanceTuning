@@ -1,0 +1,42 @@
+<project>
+  <Metadata>
+    <metadata>
+      <PackageName>PerformanceTuningConfig</PackageName>
+      <Author>David Walker</Author>
+      <Version>1.0</Version>
+      <Revision />
+      <License>&lt;p&gt;Open Source - no warranties, use at your own risk.&lt;/p&gt;&lt;p&gt;This package simply copies one file Sitecore.SharedSource.PerformanceTuning.config to /App_Config/include&lt;/p&gt;&lt;a target=_blank href=http://RadicalDave.com/Sitecore/&gt;http://RadicalDave.com/Sitecore/&lt;/a&gt; for more details</License>
+      <Comment />
+      <Attributes />
+      <Readme />
+      <Publisher>RadicalDave.com</Publisher>
+      <PostStep />
+      <PackageID />
+    </metadata>
+  </Metadata>
+  <SaveProject>True</SaveProject>
+  <Sources>
+    <xfiles>
+      <Entries>
+        <x-item>/App_Config/Include/Sitecore.SharedSource.PerformanceTuning.config</x-item>
+      </Entries>
+      <Converter>
+        <FileToEntryConverter>
+          <Root>/</Root>
+          <Transforms />
+        </FileToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>App_Config_Include</Name>
+    </xfiles>
+  </Sources>
+  <Converter>
+    <TrivialConverter>
+      <Transforms />
+    </TrivialConverter>
+  </Converter>
+  <Include />
+  <Exclude />
+  <Name />
+</project>
